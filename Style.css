@@ -1,0 +1,89 @@
+/* Element Selector */
+Body{ 
+    frontfamily:Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #222222;
+    background-color: #1f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+/* Eliement Selector */ Header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+/* Style the Profile picture */ Header img { 
+    border-radius: 50px;
+    margin: 10px;
+}
+/* Class Selector */ Resume section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dddddd;
+}
+/* ID Selector */ #profile message {
+front weight: bold;
+color: #1f4e79;
+}
+/* Heading */ h2 {
+    color: 1f4e79;
+    border-bottom: 5px;
+}
+/* education Table */ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+th td
+{ border: 1px solid #999999;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #1f4e79;
+    color: white;
+}
+/* work Experence article */ article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-left: 4px solid #1f4e79;
+}
+/* Form Styling */ form {
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 5px;
+    font-weight: bold;
+}
+input textarea {
+    padding: 10px;
+    margin-top: 5px;
+border: 1px solid #999999;
+front size: 16px;
+}
+/* Buttons */ button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #1f4e79;
+    color: white;
+    cursor: pointer;
+}
+Button:hover {
+    background-color: #163a5c;
+}
+/* Footer */ footer {
+    text-align: center;
+    background-color: #222222;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+footer a {
+    color: white;
+}
